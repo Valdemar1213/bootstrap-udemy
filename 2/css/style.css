@@ -1,0 +1,58 @@
+@charset 'UTF-8';
+
+h1 {
+  color: red;
+}
+
+/* GRID */
+.container {
+  border: 5px dotted blue;
+  padding: 10px;
+  margin-bottom: 300px;
+}
+
+.row {
+  border: 5px solid purple;
+  height: 100px;
+  padding: 10px;
+  margin: 0;
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  border: 2px dashed red;
+  height: 100%;
+  margin: 0;
+}
+
+#largura-limitada {
+  max-width: 500px;
+}
+
+/* Alinhamento Vertical */
+
+.vertical {
+  height: 250px;
+  border-color: coral;
+}
+
+.vertical .row {
+  height: 100%;
+}
+
+.vertical .col-6,
+.vertical .col-3,
+.vertical .col-4 {
+  height: 50px;
+}
