@@ -1,0 +1,38 @@
+@charset 'UTF-8';
+
+.col-12 {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-12 i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.confirmation {
+  border: 2px solid green;
+}
+
+.confirmation i {
+  color: green;
+}
+
+.message {
+  border: 2px solid blue;
+}
+
+.message i {
+  color: blue;
+}
+
+.warning {
+  border: 2px solid red;
+}
+
+.warning i {
+  color: red;
+}
