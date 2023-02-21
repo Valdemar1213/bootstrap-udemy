@@ -50,5 +50,53 @@
     </div>
   </fieldset>
 
+  <!-- Form Control -->
+
+  <div class="m-4">
+    <h2>Crie seu Post</h2>
+    <form>
+      <div class="col-4 mb-4">
+        <label for="title" class="form-label">Título do Post:</label>
+        <input type="text" class="form-control form-control-lg" id="title" placeholder="Digite seu título">
+      </div>
+      <div class="col-4 mb-4">
+        <label for="content" class="form-label">Conteúdo:</label>
+        <textarea class="form-control form-control-lg" placeholder="Digite o conteúdo do post..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+
+    <form>
+      <div class="col-4 mb-4">
+        <label for="title" class="form-label">Título do Post:</label>
+        <input type="text" class="form-control form-control-sm" id="title2" placeholder="Digite seu título">
+      </div>
+      <div class="col-4 mb-4">
+        <label for="content" class="form-label">Conteúdo:</label>
+        <textarea class="form-control form-control-sm" placeholder="Digite o conteúdo do post..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+  </div>
+
+  <!-- Read Only -->
+  <div class="col-4 m-4">
+    <h2>Formulário de Read Only</h2>
+    <form>
+      <div class="mb-4">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control" id="email2" name="email" placeholder="insira seu e-mail" readonly value="valdemar@email.com">
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-4">
+        <label for="email" class="form-label">E-mail:</label>
+        <input type="email" class="form-control-plaintext" id="email3" name="email" placeholder="insira seu e-mail" value="valdemar@email.com" readonly>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+  </div>
+
+
 </body>
 </html>
