@@ -263,5 +263,58 @@
     </form>
   </div>
 
+  <!-- Layouts com forms -->
+  <div class="container col-6 mb-4">
+    <h2>Cadastre-se preenchendo o formulário:</h2>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Digite o seu e-mail">
+      </div>
+      <div class="col-md-6">
+        <label for="password" class="form-label">Senha:</label>
+        <input type="password" class="form-control" id="password" placeholder="Digite a sua senha">
+      </div>
+      <div class="col-md-4">
+        <label for="cep" class="form-label">CEP:</label>
+        <input type="text" class="form-control" placeholder="Digite o seu CEP">
+      </div>
+      <div class="col-md-10">
+        <label for="rua" class="form-label">Rua:</label>
+        <input type="text" class="form-control" id="rua" placeholder="Digite a sua rua"></input>
+      </div>
+      <div class="col-md-2">
+        <label for="numero" class="form-label">Número:</label>
+        <input type="text" class="form-control" id="numero" placeholder="Nº"></input>
+      </div>
+      <div class="col-md-4">
+        <label for="cidade" class="form-label">Cidade:</label>
+        <input type="text" class="form-control" id="cidade" placeholder="Sua cidade"></input>
+      </div>
+      <div class="col-md-4">
+        <label for="Estado" class="form-label">Estado:</label>
+        <select name="estado" id="estado" class="form-select">
+          <option selected>Escolha</option>
+          <option value="1">SP</option>
+          <option value="2">PE</option>
+          <option value="3">RJ</option>
+          <option value="4">RS</option>
+          <option value="5">MG</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="newsletter">
+          <label for="newsletter" class="form-check-label">
+            Receber newsletter?
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+      </div>
+    </form>
+  </div>
+
 </body>
 </html>
