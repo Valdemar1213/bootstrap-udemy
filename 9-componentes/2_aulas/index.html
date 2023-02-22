@@ -19,6 +19,8 @@
       crossorigin="anonymous"
       defer
     ></script>
+    <!-- JS Prórpio -->
+    <script src="js/scripts.js" defer></script>
     <!-- CSS Próprio -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -164,6 +166,30 @@
           <li class="page-item"><a href="#" class="page-link">Próxima</a></li>
         </ul>
       </nav>
+    </div>
+
+    <!-- Pop over -->
+    <div class="container mb-4">
+      <button
+        class="btn btn-lg btn-success"
+        type="button"
+        data-bs-toggle="popover"
+        title="Este é o título"
+        data-bs-content="E aqui podemos inserir a descrição"
+      >
+        Clique aqui
+      </button>
+    </div>
+    <div class="container mb-4">
+      <button
+        class="btn btn-lg btn-danger"
+        type="button"
+        data-bs-toggle="popover"
+        title="Este é o título 2"
+        data-bs-content="E aqui podemos inserir a descrição 2"
+      >
+        Clique aqui
+      </button>
     </div>
   </body>
 </html>
